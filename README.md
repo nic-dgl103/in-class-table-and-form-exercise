@@ -1,3 +1,9 @@
 # Tables and Forms Exercise
-Create a new file called index.html and write all the HTML needed to recreate the table and the form illustrated in the image below. All the CSS has been provided in the style.css file.
- ![Image of card one](images/result.png)
+ ![preview](images/result.png)
+## The Table
+1. Modify the HTML so that index.html looks the same as the image above.
+You may need to add to, remove or edit parts of the existing HTML. Make sure to look at the CSS to see what might be missing in the HTML.
+2. Write two new CSS classes using the :first-child and :last-child pseudo classes to make the table's top corners rounded. 
+## The Form
+1. Edit the form's HTML so that it follows best practices and would function if we have the correct PHP script.
+2. Write one new CSS class to using the :focus pseudo-class to give the input's focus state a yellow border.

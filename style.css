@@ -1,7 +1,12 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: sans-serif;
   background: #dedede;
-  font-size: 16px;
+  font-size: 1.6rem;
+  padding-top: 4rem;
 }
 
 /* TABLE STYLES */
@@ -20,8 +25,10 @@ table {
   background: #fff;
 }
 
-td {
-  padding: 20px 15px;
+caption {
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 2rem;
 }
 
 thead {
@@ -30,20 +37,16 @@ thead {
 
 thead th {
   color: #fff;
-  font-size: 20px;
-}
-
-thead th:first-child {
-  border-radius: 10px 0 0 0;
-}
-
-thead th:last-child {
-  border-radius: 0 10px 0 0;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 20px 15px;
+  border-right: 1px solid rgba(197, 197, 197, 0.3);
 }
 
 tbody td {
   border-top: 1px solid #B9BFC4;
   border-right: 1px solid #B9BFC4;
+  padding: 20px 15px;
 }
 
 td.merge {
@@ -101,6 +104,11 @@ input[type="submit"] {
   display: block;
 }
 
-.signup-link {
+.forgot {
+  font-size: 1.4rem;
+}
+
+.signup {
   text-align: center;
+  font-size: 1.4rem;
 }
